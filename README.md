@@ -4,6 +4,9 @@
 
 A Cloud Foundry [buildpack](http://docs.cloudfoundry.org/buildpacks/) for Node based apps.
 
+In this buildpack has been added a loading library path folder to insert the libraries necessary to node-rfc modules.
+The path is /sap/nwrfcsdk/lib/.
+
 ### Buildpack User Documentation
 
 Official buildpack documentation can be found at [node buildpack docs](http://docs.cloudfoundry.org/buildpacks/node/index.html).
